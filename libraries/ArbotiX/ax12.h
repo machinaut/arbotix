@@ -1273,7 +1273,7 @@ void dxlVoltageReport(int numberOfServos, const int servoList[]);
  * @brief Macro to set the baud rate
  *
  * @param id the ID number for target servo
- * @param baud integer that represents baud rate. see http://support.robotis.com/en/product/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_04
+ * @param baud integer that represents baud rate. see http://support.robotis.com/en/product/actuator/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_04
  *
  * @return none  
  *
@@ -1626,7 +1626,7 @@ void dxlVoltageReport(int numberOfServos, const int servoList[]);
  * A larger compliance margin means that the motor will stop at a further distance from its goal position
  * The counter clockwise compliance margin only applies to counter clockwise movements.
  *
- * http://support.robotis.com/en/product/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_1A
+ * http://support.robotis.com/en/product/actuator/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_1A
  *
  * Compatible Servos: AX Servos only
  *
@@ -1649,7 +1649,7 @@ void dxlVoltageReport(int numberOfServos, const int servoList[]);
  * A larger compliance margin means that the motor will stop at a further distance from its goal position
  * The  clockwise compliance margin only applies to  clockwise movements.
  *
- * http://support.robotis.com/en/product/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_1A
+ * http://support.robotis.com/en/product/actuator/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_1A
  *
  * Compatible Servos: AX Servos only
  *
@@ -1688,7 +1688,7 @@ void dxlVoltageReport(int numberOfServos, const int servoList[]);
  *
  * 128 - 254 (0xFE)
  *
- * http://support.robotis.com/en/product/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_1A
+ * http://support.robotis.com/en/product/actuator/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_1A
  *
  * Compatible Servos: AX Servos only
  *
@@ -1726,7 +1726,7 @@ void dxlVoltageReport(int numberOfServos, const int servoList[]);
  *
  * 128 - 254 (0xFE)
  *
- * http://support.robotis.com/en/product/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_1A
+ * http://support.robotis.com/en/product/actuator/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_1A
  *
  * Compatible Servos: AX Servos only
  *
@@ -1750,7 +1750,7 @@ void dxlVoltageReport(int numberOfServos, const int servoList[]);
  *
  * Compatible Servos: MX Servos Only
  *
- * http://support.robotis.com/en/product/dynamixel/mx_series/mx-64.htm#Actuator_Address_1A
+ * http://support.robotis.com/en/product/actuator/dynamixel/mx_series/mx-64.htm#Actuator_Address_1A
  *
  * Kd = d gain * 4 / 1000
  *
@@ -1770,7 +1770,7 @@ void dxlVoltageReport(int numberOfServos, const int servoList[]);
  *
  * Compatible Servos: MX Servos Only
  *
- * http://support.robotis.com/en/product/dynamixel/mx_series/mx-64.htm#Actuator_Address_1A
+ * http://support.robotis.com/en/product/actuator/dynamixel/mx_series/mx-64.htm#Actuator_Address_1A
  *
  * Ki = i gain * 1000 / 2048
  *
@@ -1790,7 +1790,7 @@ void dxlVoltageReport(int numberOfServos, const int servoList[]);
  *
  * Compatible Servos: MX Servos Only
  *
- * http://support.robotis.com/en/product/dynamixel/mx_series/mx-64.htm#Actuator_Address_1A
+ * http://support.robotis.com/en/product/actuator/dynamixel/mx_series/mx-64.htm#Actuator_Address_1A
  *
  * Kp = p gain / 8
  *
@@ -1811,9 +1811,9 @@ void dxlVoltageReport(int numberOfServos, const int servoList[]);
  *
  * Compatible Servos: All AX/MX Servos
  *
- * AX Position graphic http://support.robotis.com/en/product/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_1E
+ * AX Position graphic http://support.robotis.com/en/product/actuator/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_1E
  * 
- * MX Position graphic http://support.robotis.com/en/product/dynamixel/mx_series/mx-64.htm#Actuator_Address_1E
+ * MX Position graphic http://support.robotis.com/en/product/actuator/dynamixel/mx_series/mx-64.htm#Actuator_Address_1E
  *
  * EXAMPLE: set servo #1 position to 512
  *
@@ -1899,7 +1899,7 @@ void dxlVoltageReport(int numberOfServos, const int servoList[]);
  *
  * @return none  
  *
- * http://support.robotis.com/en/product/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_20
+ * http://support.robotis.com/en/product/actuator/dynamixel/ax_series/dxl_ax_actuator.htm#Actuator_Address_20
  *
  * Compatible Servos: All AX/MX Servos
  *
@@ -1919,7 +1919,7 @@ void dxlVoltageReport(int numberOfServos, const int servoList[]);
  *
  * Compatible Servos: MX 64 and 106 only
  *
- * http://support.robotis.com/en/product/dynamixel/mx_series/mx-64.htm#Actuator_Address_1A
+ * http://support.robotis.com/en/product/actuator/dynamixel/mx_series/mx-64.htm#Actuator_Address_1A
  *
  * Kp = p gain / 8
  *

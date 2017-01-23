@@ -10,7 +10,7 @@
  *
  *
  *  Code Functionality:    
-    http://support.robotis.com/en/product/dynamixel/mx_series/mx-64.htm#Actuator_Address_061
+    http://support.robotis.com/en/product/actuator/dynamixel/mx_series/mx-64.htm#Actuator_Address_061
  *    
  *  Physical Build / Instructions:
  *    Connect your servo(s) to the ArbotiX-M with a 3-pin cable. Power the ArbotiX-M
